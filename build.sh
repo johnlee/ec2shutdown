@@ -1,1 +1,1 @@
-zip function.zip lambda_function.py
+zip src/function.zip src/lambda_function.py
