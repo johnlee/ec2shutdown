@@ -2,7 +2,7 @@ import boto3
 region = 'us-west-2'
 ec2 = boto3.resource('ec2')
 
-# Published through TFS
+# Automated publish through TFS
 def lambda_handler(event, context):
     # Stop intances based on tag
     filters = [{
